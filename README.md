@@ -82,10 +82,7 @@ students to have them.
 
 ## Update macOS
 
-For our class, you'll need the latest release of
-[macOS Catalina](https://apps.apple.com/us/app/macos-catalina/id1466841314?mt=12).
-
-Starting Installfest with the most recent macOS update is vital!
+For our class, you'll need a recent version of macOS, if you have an older version, please update your computer!
 
 ## Open Terminal
 
@@ -247,44 +244,24 @@ Terminal (`CMD + Q`) and open a new window.
 
 ## Install Code Editors
 
-We will be using Sublime Text during Installfest, and recommend using it for the
-first few weeks before trying out the more complex but powerful editor: VS Code.
+We will be using VS Code for this class, which is an awesome text editor.
 
 _Run:_
 
 ```sh
-$ brew cask install sublime-text visual-studio-code
+$ brew cask install visual-studio-code
 ```
 
 ### Confirm Code Editors
 
 ```sh
-# 1/2
-
-$ subl ~/.bash_profile
-
 # Keep this window open
-
-# 2/2
 
 $ code ~/.bash_profile
 ```
 
-You can either use VS Code or Sublime Text to edit your `.bash_profile`. Keep
+You will use VS Code to edit your `.bash_profile`. Keep
 either window open.
-
-#### Troubleshooting Sublime Text
-
-If Sublime Text is installed but `subl ~/.bash_profile` does not work...
-
-1. _Run:_
-
-```sh
-$ ln -sv "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-```
-
-2. Run the "Confirm" command again. Worst case, completely close Terminal
-   (`CMD + Q`) and open a new window.
 
 #### Troubleshooting VS Code
 
@@ -313,7 +290,7 @@ If VS Code is installed but `code ~/.bash_profile` does not work...
 
 ## Remove bash warning
 
-In the `.bash_profile` file open in your editor (Sublime or VS Code), add this
+In the `.bash_profile` file open in your editor (VS Code), add this
 line to the top:
 
 ```sh
@@ -525,7 +502,7 @@ a programming font for our Terminal!
 1. Download
    [Fira Code here](https://github.com/tonsky/FiraCode/releases/download/2/FiraCode_2.zip).
 
-2. Unzip the folder when it is finishe downloading, and open the `tff/` folder.
+2. Unzip the folder when it is finished downloading, and open the `tff/` folder.
 
 3. Highlight all of the `.tff` files, and the double click them to open the
    prompt to add them to the Font Book app.
@@ -968,14 +945,6 @@ machine!
 - [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
 - [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 - [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd)
-
-## Complete Final Course Prep Form
-
-The link
-[can be found here](https://docs.google.com/forms/d/e/1FAIpQLScvSiLlPbm8U2bhcQAlKe5tsOWdw-rcRW7O4VzP6gmwMBWKWw/viewform)
-
-Please fill it out so we can add you to the resources for lessons and
-assignments!
 
 # Congratulations 🎉
 
